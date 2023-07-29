@@ -8,3 +8,7 @@
  *
  * 4. Выведите в консоль измененный массив
  */
+const myArr = ['my string', null, 123];
+console.log(myArr);
+myArr[1] = undefined;
+console.log(myArr);
