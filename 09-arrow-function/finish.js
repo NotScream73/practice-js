@@ -10,3 +10,9 @@
  *
  * 5. Перепишите функцию так, чтобы результат возвращался неявно
  */
+const myArrowFunction = () => {
+    return 'Привет, мир!';
+}
+console.log(myArrowFunction());
+const myArrowFunctionImplicit = () => 'Привет, мир!';
+console.log(myArrowFunctionImplicit());
