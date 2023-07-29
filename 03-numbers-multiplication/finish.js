@@ -7,3 +7,8 @@
  *
  * 3. Выведите значение последней переменной в консоль
  */
+
+const first = 1,
+    second = 2,
+    third = first * second;
+console.log(third);
