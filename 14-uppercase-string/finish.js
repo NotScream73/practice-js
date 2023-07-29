@@ -12,3 +12,8 @@
  *
  * 5. Выведите в консоль значение второй переменной
  */
+const myString = 'Любая строка';
+myString instanceof String ? console.log('String') : console.log('Не String');
+typeof(myString) === 'string' ? console.log('string') : console.log('Не string');
+const myAnotherString = myString.toUpperCase();
+console.log(myAnotherString);
